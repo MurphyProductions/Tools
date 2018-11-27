@@ -1,10 +1,10 @@
 .sidebar {
     padding: 0.5em;
     margin: 0;
-    float: left;
+    float: right;
     height: 100%;
     width: 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(555, 555, 555);
     position: fixed;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .button {
-    background-color: rgb(235, 235, 235);
-    margin: 0.1em;
+    background-color: rgb(575, 575, 575);
+    margin: 0.2em;
     margin-bottom: 0.25em;
     padding: 0.25em;
     text-decoration: none;
