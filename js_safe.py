@@ -31,5 +31,5 @@ for a in range(5625, n, 1):
 		if fast_c(weird, key):
 			inp = c(weird, key)
 			print('(%d, %d) => %s' % (a, b, inp))
-	break	# remove this
+
 
