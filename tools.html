@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/main.css"	
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-white w3-animate-left" style="display:none;z-index:4" id="mySidebar">
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close</button>
+  <a href="https://sp-des.github.io/DNA-tools/tools.html" class="w3-bar-item w3-button">DNA Tools</a> 
+  <a href="https://sp-des.github.io/Transposer" class="w3-bar-item w3-button">Note Transposera>
+  <a href="https://sp-des.github.io/Tools/pHTool.html" class="w3-bar-item w3-button">pH Tool</a>
+</div>
+<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer"></div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
 
-		<link rel="stylesheet" type="text/css" href="css/main.css"
-		<meta charset="utf-8">
-                
-
-		<section class="sidebar">
-			<a href="https://sp-des.github.io/DNA-tools/tools.html" class="button">DNA Tool</a>
-			<a href="https://sp-des.github.io/Transposer" class="button">Note Transposer</a>
-			<a href="https://sp-des.github.io/Tools/pHTool.html" class="button">pH Tool</a>
-
-		</section>
-
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>	
 <meta charset="utf-8">
 <style>
 body {
