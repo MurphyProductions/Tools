@@ -21,6 +21,8 @@
     color: black;
 }
 
-body1 {
-    background: black
+body {
+	font-family: 'Overpass Mono', monospace;
+	color: #edecf2;
+	background: #37373e;
 }
