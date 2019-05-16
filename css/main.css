@@ -1,24 +1,26 @@
+
+
 .sidebar {
-    padding: 0.5em;
-    margin: 0;
-    float: right;
-    height: 50%;
-    width: 100px;
-    background-color: rgb(555, 555, 555);
-    position: fixed;
+	padding: 0.5em;
+	margin: 0;
+	float: right;
+	height: 50%;
+	width: 100px;
+	background-color: rgb(555, 555, 555);
+	position: fixed;
 }
 
 .sidebar .button {
-    display: block;
+	display: block;
 }
 
 .button {
-    background-color: rgb(575, 575, 575);
-    margin: 0.2em;
-    margin-bottom: 0.25em;
-    padding: 0.25em;
-    text-decoration: none;
-    color: black;
+	background-color: rgb(575, 575, 575);
+	margin: 0.2em;
+	margin-bottom: 0.25em;
+	padding: 0.25em;
+	text-decoration: none;
+	color: black;
 }
 
 body {
@@ -26,3 +28,4 @@ body {
 	color: #edecf2;
 	background: #37373e;
 }
+
